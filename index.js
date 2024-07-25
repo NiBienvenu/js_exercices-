@@ -1,3 +1,5 @@
+ 
+
 console.log('Running')
 
 //declaration des variables
@@ -119,4 +121,13 @@ if(f){
     console.log('c vaut :', c);
 }else{
     console.log('c n\'est pas calculé car la variable f est false');
+}
+let m=0
+while(m<=10){
+    console.log('hello world');
+    m++;
+
+}
+for(let i=0;i<10;i++){
+    console.log('hello i am full');
 }
