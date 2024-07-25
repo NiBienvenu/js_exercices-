@@ -42,6 +42,17 @@ switch(f){
         console.log('la valeur de f n\'est pas -8');
 }
 
+// manipulations des listes et  ces quelques fonctions
+
+var list = Array(2,5,6,7,8)
+console.log('Liste avant modification :', list);
+
+list.push(10);
+console.log('Liste après ajout d\'un élément :', list);
+
+list.pop(); // suppressions du dernier element
+list.pop();
+console.log('Liste après suppression d\'un élément :', list);
 
 
 if(f){
