@@ -59,21 +59,57 @@ console.log('Liste après suppression du premier élément :', list);
 list.splice(2,2,3,10); // ajout d'un element à une position donnee
 console.log('Liste après ajout d\'un élément à une position donnée :', list);
 
-list.splice(2,4); // suppression d'un element a une position donnee
+list.splice(2,1); // suppression d'un element a une position donnee
 console.log('Liste après suppression d\'un élément à une position donnée :', list);
-
 
 list.pop(); // suppressions du dernier element
 list.pop();
 console.log('Liste après suppression d\'un élément :', list);
 
-list.sort(); // tri croissant
+list.sort((a,b) => a - b); // tri croissant
 console.log('Liste après tri croissant :', list);
+
+list.sort((a,b) => b - a); // tri décroissant
+console.log('Liste après tri décroissant :', list);
 
 list.reverse(); // inversion de la liste
 console.log('Liste après inversion :', list);
 
 
+//boucle des listes
+console.log('Liste avec une boucle for');
+for(let i = 0; i < list.length; i++){
+    console.log(list[i]);
+}
+
+console.log('Liste avec une boucle for of');
+
+
+for(let i of list){
+    console.log(i);
+}
+
+console.log('Liste avec une boucle while');
+let j = 0;
+while(j < list.length){
+    console.log(list[j]);
+    j++;
+}
+//boucle avec foreach et map
+console.log('Liste avec une boucle avec foreach et map');
+list.forEach(function (item){
+    console.log(item);
+
+})
+console.log('Liste avec une boucle avec foreach fresh');
+list.forEach((ab)=>{
+    console.log(ab);
+
+})
+
+list.map(function (elt, i) {
+    console.log(elt + ' avec index ' + i);
+});
 
 
 
