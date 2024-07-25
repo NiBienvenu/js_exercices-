@@ -44,15 +44,38 @@ switch(f){
 
 // manipulations des listes et  ces quelques fonctions
 
-var list = Array(2,5,6,7,8)
+var list = Array(2,5,6,4,7,8)
 console.log('Liste avant modification :', list);
 
 list.push(10);
 console.log('Liste après ajout d\'un élément :', list);
 
+
+list.unshift(-1); // ajout d'un element au debut de la liste
+console.log('Liste après ajout d\'un élément au début :', list);
+list.shift(); // suppression du premier element
+console.log('Liste après suppression du premier élément :', list);
+
+list.splice(2,2,3,10); // ajout d'un element à une position donnee
+console.log('Liste après ajout d\'un élément à une position donnée :', list);
+
+list.splice(2,4); // suppression d'un element a une position donnee
+console.log('Liste après suppression d\'un élément à une position donnée :', list);
+
+
 list.pop(); // suppressions du dernier element
 list.pop();
 console.log('Liste après suppression d\'un élément :', list);
+
+list.sort(); // tri croissant
+console.log('Liste après tri croissant :', list);
+
+list.reverse(); // inversion de la liste
+console.log('Liste après inversion :', list);
+
+
+
+
 
 
 if(f){
