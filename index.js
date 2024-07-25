@@ -5,7 +5,7 @@ let a = -5;
 let b = 10;
 let c = 0;
 var d = "abcdef"
-const f = -8
+const f =  4
 
 //affichage des variables
 console.log('a vaut :', a);
@@ -24,6 +24,25 @@ if(a < b){
 }else{
     console.log('a est égal à b');
 }
+
+// condition swich
+console.log('Conditions switch avec une constante');
+switch(f){
+    case -8:
+        console.log('-8 est une valeur constante');
+        break;
+    case 0:
+        console.log('0 est une valeur constante');
+        break;
+    case 10:
+        console.log('10 est une valeur constante');
+        break;
+    
+    default:
+        console.log('la valeur de f n\'est pas -8');
+}
+
+
 
 if(f){
     c = a + b;
