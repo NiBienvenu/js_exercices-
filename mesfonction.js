@@ -11,6 +11,14 @@ function sqrt(a, b){
     
 }
 
+function majeur(a){
+    if (a>18) {
+        return "Majeur"
+    } else {
+        return "Mineur"        
+    }
+}
+
 var t=addition(12,6)
 console.log('addition result :',t)
 var w=soustraction(12,8)

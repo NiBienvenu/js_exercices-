@@ -114,6 +114,8 @@ list.map(function (elt, i) {
 });
 
 
+// console
+
 
 
 if(f){
