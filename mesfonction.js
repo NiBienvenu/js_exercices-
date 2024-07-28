@@ -6,6 +6,11 @@ function addition(a, b){
 function soustraction(a, b){
     return a - b;
 }
+
+function sqrt(a, b){
+    
+}
+
 var t=addition(12,6)
 console.log('addition result :',t)
 var w=soustraction(12,8)
