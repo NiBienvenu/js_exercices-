@@ -24,7 +24,7 @@ function majeur(a){
 function mathFonction() {
     let a = Math.cos(360)
     let b = Math.sin(360)
-    console.log(a +" "+b) /// r
+    console.log(a +" "+b) /// Math donne faux valeurs
 }
 
 var t=addition(12,6)
