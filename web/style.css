@@ -34,3 +34,47 @@ body{
     border-radius: 50px;
    
 }
+
+.calcul{
+    display: block;
+}
+.elt{
+    /* justify-content: center; */
+    display: flex;
+}
+.btn{
+    width: 50px;
+    height: 30px;
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black;
+    
+}
+.btn0{
+    width: 100px;
+    height: 30px;
+    background-color: gray;
+    text-align: center;
+    padding: 10px 20px 10px 22px;
+    border: 1px solid black;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(182, 150, 150);
+}
+.btn0:hover{
+    cursor: pointer;
+    background-color: rgb(182, 150, 150);
+}
+.affichage{
+    width: 287px;
+    height: 70px;
+    background-color: rgb(83, 83, 83);
+    border: 1px solid white;
+}
+#number{
+    font-size: 25px;
+    color: aliceblue;
+    text-align: end;
+}

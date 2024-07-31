@@ -41,3 +41,13 @@ function changeTextSize() {
     // document.getElementById('yves').style.display = 'none'
 
 }
+
+function setValue(params) {
+    var elt = document.getElementById('number').innerHTML
+    document.getElementById('number').innerHTML = elt + params;
+}
+
+function deleteLastValue(){
+    var elt = document.getElementById('number').innerHTML
+    document.getElementById('number').innerHTML = elt.substring(0,elt.length-1);
+}
