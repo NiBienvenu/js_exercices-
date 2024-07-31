@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(221, 173, 173);
+}
+#hello{                  /* Metre un style avec element ID */
+    color: #f7f3f3;
+   padding-right: 20px;
+}
+ /* un style avec element CLASS */
+/* .word{                    
+    color: #f7f3f3;
+} */
+.title{
+    display:flex;
+    /* gap: 4; */
+}
+
+.flex{
+    background-color: blue;
+    padding: 20px;
+    margin: 50px ;
+}
+.nom{
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+}
+#btn{
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+   
+}
