@@ -10,3 +10,9 @@ function onclickButton(){
     document.getElementById('hello').innerHTML = a; // 
     document.getElementById('nom').value='amahoro';
 }
+function changement(){
+
+    let a = document.getElementById('nom').value
+    console.log(a)
+    document.getElementById('hello').innerHTML=a;
+}
